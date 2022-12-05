@@ -1,3 +1,5 @@
+# _I know, it's not perfect, I just want to try other projects. I might edit this one later._
+
 # Frontend Mentor - Profile card component solution
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
