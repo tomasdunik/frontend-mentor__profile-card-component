@@ -118,6 +118,10 @@ body {
   margin: 25px;
 }
 
+h1 {
+  display: none;
+}
+
 @media (min-width: 376px) {
   .card {
     width: 350px;
