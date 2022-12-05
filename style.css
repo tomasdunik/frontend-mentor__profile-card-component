@@ -37,14 +37,14 @@ body {
 .background-top,
 .background-bottom {
   position: fixed;
-  top: -390px;
-  left: -60px;
+  top: -550px;
+  left: -800px;
   z-index: -1;
 }
 
 .background-bottom {
-  top: 390px;
-  left: 990px;
+  top: 270px;
+  left: 170px;
 }
 
 .card {
@@ -119,7 +119,18 @@ body {
 }
 
 @media (min-width: 376px) {
-  .body {
-    min-width: 300px;
+  .card {
+    width: 350px;
+  }
+
+  .background-top,
+  .background-bottom {
+    top: -390px;
+    left: -60px;
+  }
+
+  .background-bottom {
+    top: 390px;
+    left: 990px;
   }
 }
