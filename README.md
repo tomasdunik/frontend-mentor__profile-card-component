@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/screensht.png)
 
 ### Links
 
