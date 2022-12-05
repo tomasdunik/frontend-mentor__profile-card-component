@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -64px;
+  top: -66px;
   line-height: 30px;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 .social-media-number-name {
-  margin: 20px;
+  margin: 25px;
 }
 
 @media (min-width: 376px) {
