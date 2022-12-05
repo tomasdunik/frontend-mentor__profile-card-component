@@ -1,0 +1,123 @@
+:root {
+  --clr-cyan: #1aa1ad;
+  --clr-dark-blue: #2d3248;
+  --clr-dark-grey: #6b7082;
+  --clr-grey: #969696;
+
+  --ff-primary: "Kumbh Sans", sans-serif;
+
+  --fs-primary: 1.125rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+body {
+  background-color: var(--clr-cyan);
+  /* background-image: url(./images/bg-pattern-top.svg);
+  background-position: top right 10px;
+  background-repeat: no-repeat; */
+
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
+  padding: 0;
+  margin: 0;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: var(--fw-bold);
+  color: var(--clr-dark-blue);
+}
+
+.background {
+  position: fixed;
+  top: -390px;
+  left: -60px;
+  z-index: -1;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  width: 326px;
+  height: 374px;
+  overflow: hidden;
+}
+
+/* ===== img ===== */
+.img-background {
+}
+
+.img-profile {
+  border: 5px white solid;
+  border-radius: 50%;
+}
+
+.profile-city {
+  font-size: 0.875rem;
+  color: var(--clr-dark-grey);
+  font-weight: var(--fw-regular);
+}
+
+.img-background {
+  object-position: center;
+}
+
+.img-profile {
+  position: relative;
+  top: -60px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -70px;
+  line-height: 30px;
+}
+
+.age {
+  font-weight: var(--fw-regular);
+  color: var(--clr-dark-grey);
+}
+
+.social-media {
+  position: relative;
+  top: -70px;
+
+  width: 100%;
+  height: 100px;
+  border-top: solid #e8e9ec 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+
+.social-media-number {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media-name {
+  display: block;
+  color: var(--clr-dark-grey);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: var(--fw-regular);
+}
+
+.social-media-number-name {
+  margin: 20px;
+}
+
+@media (min-width: 376px) {
+  .card {
+    width: 350px;
+  }
+}
