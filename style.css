@@ -55,10 +55,6 @@ body {
   overflow: hidden;
 }
 
-/* ===== img ===== */
-.img-background {
-}
-
 .img-profile {
   border: 5px white solid;
   border-radius: 50%;
