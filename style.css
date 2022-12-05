@@ -34,11 +34,17 @@ body {
   color: var(--clr-dark-blue);
 }
 
-.background {
+.background-top,
+.background-bottom {
   position: fixed;
   top: -390px;
   left: -60px;
   z-index: -1;
+}
+
+.background-bottom {
+  top: 390px;
+  left: 990px;
 }
 
 .card {
